@@ -3780,7 +3780,7 @@
         return this.get(name);
       },
       set: function(value) {
-        invariant(this.__ownerID, 'Cannot set on an immutable record.');
+        // invariant(this.__ownerID, 'Cannot set on an immutable record.');
         this.set(name, value);
       }
     });
